@@ -1,4 +1,7 @@
-let a = 6
-let b = '6'
 
-console.log(a===b)
+
+  function weirdNumbers(delta) {
+    return 1 + delta - Math.random();
+  }
+
+  console.log(weirdNumbers(0.5))
